@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: cimg/base:stable
         auth:
-          username: cathlenebaptista
+          username: catsbap@gmail.com
           password: cbbarb1012
     steps:
       - checkout
