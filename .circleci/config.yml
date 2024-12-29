@@ -6,7 +6,7 @@ jobs:
       - image: cimg/base:stable
         auth:
           username: catsbap@gmail.com
-          password: cbbarb1012
+          password: cbbarb1012%
     steps:
       - checkout
       - run:
