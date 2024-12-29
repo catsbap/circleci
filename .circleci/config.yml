@@ -3,7 +3,10 @@ version: 2.1
 jobs:
   build:
     docker:
-      image: cimg/base:stable
+      - image: cimg/base:stable
+        auth:
+          username: root
+          password: cbbarb1012
     steps:
       - checkout
       - run:
